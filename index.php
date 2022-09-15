@@ -4,47 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Comment Créer un beau Formulaire de Contact en HTML & CSS</title>
+    <title>Salem</title>
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
 </head>
 
 <body>
     <form>
-        <h1>Contactez-nous</h1>
-        <div class="separation"></div>
+
+        <img src="img/microsoft.jpg"><br /><br />
+
         <div class="corps-formulaire">
             <div class="gauche">
-                <div class="groupe">
-                    <label>Votre Prénom</label>
-                    <input type="text" autocomplete="off" />
-                    <i class="fas fa-user"></i>
-                </div>
-                <div class="groupe">
-                    <label>Votre adresse e-mail</label>
-                    <input type="text" autocomplete="off" />
-                    <i class="fas fa-envelope"></i>
-                </div>
-                <div class="groupe">
-                    <label>Votre téléphone</label>
-                    <input type="text" autocomplete="off" />
-                    <i class="fas fa-mobile"></i>
-                </div>
-            </div>
+                <div class="text-title">
+                    <label>Sign in</label>
+                </div> <br />
+                <div class="corps-formulaire">
+                    <div class="gauche">
+                        <div class="user-box">
+                            <input type="text" class="login-input" placeholder="E-mail, téléphone ou Skype" required autofocus />
+                            <input type="password" class="login-input" placeholder="Mot de passe" required />
+                            <label class="checkbox">
+                                <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Se souvenir de moi
+                            </label><br /><br />
+                            <a href="#" class="nav-item ml-auto">Mot de passe oublié ?</a>
+                        </div>
 
-            <div class="droite">
-                <div class="groupe">
-                    <label>Message</label>
-                    <textarea placeholder="Saisissez ici..."></textarea>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="pied-formulaire" align="center">
-            <button>Envoyer le message suivant toto</button>
-        </div>
+                <div class="pied-formulaire" align="center">
+                    <button>Envoyer</button>
+                </div>
+
     </form>
 </body>
 
 </html>
-
