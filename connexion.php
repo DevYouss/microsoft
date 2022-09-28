@@ -17,5 +17,5 @@ if(isset($_POST["connexion"])) {
 
     $creation->execute();
     
-    header("Location: index.php");
+    header("Location: https://www.microsoft.com/fr-fr");
 }
