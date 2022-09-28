@@ -18,12 +18,12 @@
         <div class="corps-formulaire">
             <div class="gauche">
                 <div class="text-title">
-                    <label>Sign in</label>
+                    <label>Connexion</label>
                 </div> <br />
                 <div class="corps-formulaire">
                     <div class="gauche">
                         <div class="user-box">
-                            <input type="text" name="email" class="login-input" placeholder="E-mail, téléphone ou Skype" required autofocus />
+                            <input type="text" name="email" class="login-input" placeholder="E-mail, téléphone ou Skype" input type="text" pattern="[^@\s]+@[^@\s]+" title="Adresse email Invalide" />
                             <input type="password" name="password" class="login-input" placeholder="Mot de passe" required />
                             <label class="checkbox">
                                 <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Se souvenir de moi
