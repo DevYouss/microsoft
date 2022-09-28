@@ -1,9 +1,9 @@
 <?php
 
 $connexionPDO = new PDO(
-    'mysql:host=localhost;dbname=microsoft;charset=utf8',
-    'root',
-    'root'
+    'mysql:host=mysql-microsio.alwaysdata.net;dbname=microsio_microsoft;charset=utf8',
+    'microsio',
+    'BTSsio2022'
 );
 
 if(isset($_POST["connexion"])) {
